@@ -1,0 +1,99 @@
+<resources>
+    <string name="app_name">Feed My Fly</string>
+
+    <!-- Navigation & Tabs -->
+    <string name="nav_home">Stanza del moscerino</string>
+    <string name="nav_brain">Mappa cerebrale</string>
+    <string name="nav_reels">BugReels</string>
+    <string name="nav_about">Connettoma e Crediti</string>
+    <string name="nav_settings">Impostazioni</string>
+
+    <!-- Controls & Game -->
+    <string name="btn_feed">NUTRI</string>
+    <string name="feed_hint_hungry">Dai una goccia di zucchero (la fame deve superare il 10%)</string>
+    <string name="feed_hint_full">Il moscerino è sazio!</string>
+    <string name="meter_hunger">Fame: %1$d%%</string>
+    <string name="meter_dopamine">Dopamina: %1$d%%</string>
+    <string name="tap_hint">Tocca a sinistra/destra per simulare una mano • Strofinalo in modalità Bagnetto</string>
+    <string name="bath_mode_button">Modalità Bagnetto</string>
+    <string name="bath_hint">Strofina il moscerino per stimolare l\'organo di Johnston (meccanosensoriale)</string>
+
+    <!-- States -->
+    <string name="state_idle">A riposo</string>
+    <string name="state_buzzing">Ronzio (Circuito di fuga attivo!)</string>
+    <string name="state_eating">Mangia (Proboscide estesa)</string>
+    <string name="state_dopamine_stare">Sguardo da Dopamina</string>
+    <string name="state_grooming">Pulizia delle antenne</string>
+    <string name="state_escaped">Il moscerino è fuggito! Torna tra poco...</string>
+
+    <!-- Brain View -->
+    <string name="brain_title">Grafo Deterministico del Connettoma</string>
+    <string name="brain_circuit_feed">CIRCUITO NUTRIZIONE (Zucchero e MN9)</string>
+    <string name="brain_circuit_escape">CIRCUITO FUGA (Avvicinamento e DNp01)</string>
+    <string name="brain_circuit_reward">CIRCUITO RICOMPENSA (Reels e PAM)</string>
+    <string name="brain_circuit_groom">CIRCUITO PULIZIA (Johnston e Toeletta)</string>
+    <string name="brain_legend_sensors">Sensoriali</string>
+    <string name="brain_legend_inter">Interneuroni</string>
+    <string name="brain_legend_motor">Motori / PAM</string>
+    <string name="brain_node_tap_prompt">Tocca un neurone per ispezionare la connettività</string>
+    <string name="brain_card_cell_type">Tipo cellulare</string>
+    <string name="brain_card_root_id">ID Principale FlyWire</string>
+    <string name="brain_card_side">Lato cerebrale</string>
+    <string name="brain_card_role">Ruolo nel circuito</string>
+    <string name="brain_card_synapses_in">Sinapsi in ingresso (nel sottografo)</string>
+    <string name="brain_card_synapses_out">Sinapsi in uscita (nel sottografo)</string>
+    <string name="brain_firing_path_active">⚡ Via neurale attiva evidenziata</string>
+
+    <!-- Reels -->
+    <string name="reels_title">BugReels</string>
+    <string name="reels_swipe_hint">Scorri verso l\'alto per fare doomscrolling e stimolare i relè visivi (SENSORY_REEL)</string>
+    <string name="reel_1_title">Top 10 Banane Mature 🍌</string>
+    <string name="reel_1_desc">Fermentate alla perfezione. La numero 3 ti sorprenderà!</string>
+    <string name="reel_2_title">Speedrun Lampadina 💡</string>
+    <string name="reel_2_desc">A sbattere contro il vetro per 4 ore consecutive!</string>
+    <string name="reel_3_title">Il Mistero della Finestra 🪟</string>
+    <string name="reel_3_desc">Vedo il giardino fuori, perché continuo a sbatterci contro?</string>
+    <string name="reel_4_title">Banchetto di Zucchero Puro 🍯</string>
+    <string name="reel_4_desc">Recensione micro-gocce di nettare: dolcezza 10 su 10.</string>
+    <string name="reel_5_title">Routine Pulizia Antenne ✨</string>
+    <string name="reel_5_desc">Mantenere le sensilla meccanosensoriali sempre impeccabili.</string>
+    <string name="reel_6_title">Trend di Danza Drosophila 🪰</string>
+    <string name="reel_6_desc">Test frequenza vibrazione alare: riesci a raggiungere 220 Hz?</string>
+
+    <!-- About Screen -->
+    <string name="about_title">Connettoma e Dati Scientifici</string>
+    <string name="about_dataset_title">Panoramica del Set di Dati</string>
+    <string name="about_dataset_desc">Connettoma dell\'intero cervello di Drosophila femmina adulta FlyWire, materializzazione v783. Circuito biologico reale di 127 neuroni e relative connessioni sinaptiche.</string>
+    <string name="about_citations_title">Citazioni Scientifiche</string>
+    <string name="about_citation_1">Dorkenwald et al. 2024 (Connettoma dell\'intero cervello FlyWire)</string>
+    <string name="about_citation_2">Shiu et al. 2024 (Nature 634:210, modello dell\'intero cervello)</string>
+    <string name="about_citation_3">Schlegel et al. 2024 (Annotazioni sull\'intero cervello)</string>
+    <string name="about_license_title">Licenza dei Dati</string>
+    <string name="about_debug_title">Monitor Attività Neurale in Tempo Reale</string>
+    <string name="about_debug_toggle">Mostra Attivazione Neurale in Diretta</string>
+    <string name="about_debug_mn9">Motore Proboscide MN9:</string>
+    <string name="about_debug_dnp01_l">Fibra Gigante DNp01 (S):</string>
+    <string name="about_debug_dnp01_r">Fibra Gigante DNp01 (D):</string>
+    <string name="about_debug_pam">Dopamina Media PAM:</string>
+    <string name="about_all_neurons_title">Catalogo Neuroni (127 Cellule Identificate)</string>
+    <string name="about_search_hint">Filtra per tipo cellulare, ruolo o lato...</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Impostazioni</string>
+    <string name="settings_language">Lingua / Language</string>
+    <string name="settings_lang_en">English</string>
+    <string name="settings_lang_it">Italiano</string>
+    <string name="btn_close">Chiudi</string>
+
+    <!-- Fact Popups -->
+    <string name="fact_popup_title">Curiosità sul Connettoma</string>
+    <string name="btn_dismiss">Ho capito</string>
+
+    <string name="fact_motor_feed">MN9 è un motoneurone che estende la proboscide del moscerino per mangiare. In un modello pubblicato dell\'intero cervello, i neuroni del gusto dello zucchero a 100 Hz lo portavano a circa l\'80 per cento della sua attività massima.</string>
+    <string name="fact_motor_escape">DNp01 è la fibra gigante (Giant Fiber), una coppia di neuroni discendenti al centro del circuito di fuga del moscerino. Ce n\'è uno su ciascun lato del cervello.</string>
+    <string name="fact_sensory_loom">In questo set di dati, le cellule LPLC2 e LC4 forniscono il maggior numero di sinapsi alle fibre giganti tra le cellule visive. Rilevano oggetti che si ingrandiscono, come una mano che arriva veloce.</string>
+    <string name="fact_reward_pam">Circa 120-130 neuroni PAM rilasciano dopamina sul corpo fungiforme, il centro dell\'apprendimento del moscerino, e segnalano la ricompensa.</string>
+    <string name="fact_sensory_reel">In questo sottografo la via più forte verso i neuroni PAM parte da cellule visive di relè, non dalla via dell\'alimentazione. In questo cablaggio il doomscrolling vince la corsa alla dopamina.</string>
+    <string name="fact_sensory_sugar">Questi 20 neuroni del gusto per lo zucchero sono cellule reali del connettoma FlyWire, che mappa 139.255 neuroni e circa 50 milioni di sinapsi.</string>
+    <string name="fact_sensory_jon">I neuroni dell\'organo di Johnston si trovano nelle antenne e percepiscono il movimento. In un modello pubblicato dell\'intero cervello, attivarli prevedeva l\'attività di un circuito di pulizia (grooming), quindi strofinare il moscerino nella vasca lo fa pulire.</string>
+</resources>

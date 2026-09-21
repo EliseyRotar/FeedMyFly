@@ -1,0 +1,6 @@
+{
+  "name": "Feed My Fly",
+  "description": "Feed My Fly - Interactive Drosophila connectome brain simulation and pet fly",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,99 @@
+<resources>
+    <string name="app_name">Feed My Fly</string>
+
+    <!-- Navigation & Tabs -->
+    <string name="nav_home">Fly Room</string>
+    <string name="nav_brain">Brain View</string>
+    <string name="nav_reels">BugReels</string>
+    <string name="nav_about">Connectome &amp; About</string>
+    <string name="nav_settings">Settings</string>
+
+    <!-- Controls & Game -->
+    <string name="btn_feed">FEED</string>
+    <string name="feed_hint_hungry">Feed sugar drop (hunger must be &gt; 10%)</string>
+    <string name="feed_hint_full">The fly is full!</string>
+    <string name="meter_hunger">Hunger: %1$d%%</string>
+    <string name="meter_dopamine">Dopamine: %1$d%%</string>
+    <string name="tap_hint">Tap left/right to loom a hand • Rub antennae in Bath mode to groom</string>
+    <string name="bath_mode_button">Bath Mode</string>
+    <string name="bath_hint">Rub the fly to stimulate Johnston\'s organ (antennal mechanosensory)</string>
+
+    <!-- States -->
+    <string name="state_idle">Resting</string>
+    <string name="state_buzzing">Buzzing (Escape Circuit Active!)</string>
+    <string name="state_eating">Eating (Proboscis Extended)</string>
+    <string name="state_dopamine_stare">Dopamine Stare</string>
+    <string name="state_grooming">Grooming Antennae</string>
+    <string name="state_escaped">Fly took off! Returning shortly...</string>
+
+    <!-- Brain View -->
+    <string name="brain_title">Deterministic Connectome Graph</string>
+    <string name="brain_circuit_feed">FEED (Sugar &amp; MN9)</string>
+    <string name="brain_circuit_escape">ESCAPE (Looming &amp; DNp01)</string>
+    <string name="brain_circuit_reward">REWARD (Reels &amp; PAM)</string>
+    <string name="brain_circuit_groom">GROOM (Johnston &amp; Grooming)</string>
+    <string name="brain_legend_sensors">Sensory</string>
+    <string name="brain_legend_inter">Interneurons</string>
+    <string name="brain_legend_motor">Motor / PAM</string>
+    <string name="brain_node_tap_prompt">Tap any neuron to inspect connectivity</string>
+    <string name="brain_card_cell_type">Cell Type</string>
+    <string name="brain_card_root_id">FlyWire Root ID</string>
+    <string name="brain_card_side">Brain Side</string>
+    <string name="brain_card_role">Circuit Role</string>
+    <string name="brain_card_synapses_in">Incoming Synapses (in subgraph)</string>
+    <string name="brain_card_synapses_out">Outgoing Synapses (in subgraph)</string>
+    <string name="brain_firing_path_active">⚡ Firing Pathway Highlighted</string>
+
+    <!-- Reels -->
+    <string name="reels_title">BugReels</string>
+    <string name="reels_swipe_hint">Swipe up to doomscroll and stimulate visual relay cells (SENSORY_REEL)</string>
+    <string name="reel_1_title">Top 10 Ripe Bananas 🍌</string>
+    <string name="reel_1_desc">Fermenting to perfection. You won\'t believe #3!</string>
+    <string name="reel_2_title">Light Bulb Speedrun 💡</string>
+    <string name="reel_2_desc">Bouncing against the glass for 4 hours straight!</string>
+    <string name="reel_3_title">Window Physics Mystery 🪟</string>
+    <string name="reel_3_desc">I can see outside, so why can\'t I fly through?</string>
+    <string name="reel_4_title">Ultimate Sugar Crystal Feast 🍯</string>
+    <string name="reel_4_desc">Micro-drops of nectar review: 10/10 sweetness.</string>
+    <string name="reel_5_title">Antenna Grooming Routine ✨</string>
+    <string name="reel_5_desc">Keep those mechanosensory sensilla spotless.</string>
+    <string name="reel_6_title">Drosophila Dance Trend 🪰</string>
+    <string name="reel_6_desc">Wing vibration frequency test: can you hit 220 Hz?</string>
+
+    <!-- About Screen -->
+    <string name="about_title">Connectome &amp; Scientific Data</string>
+    <string name="about_dataset_title">Dataset Overview</string>
+    <string name="about_dataset_desc">FlyWire adult female whole-brain connectome, materialization v783. Biological wiring of 127 real Drosophila neurons and their synaptic connections.</string>
+    <string name="about_citations_title">Scientific Citations</string>
+    <string name="about_citation_1">Dorkenwald et al. 2024 (FlyWire whole-brain connectome)</string>
+    <string name="about_citation_2">Shiu et al. 2024 (Nature 634:210, whole-brain model)</string>
+    <string name="about_citation_3">Schlegel et al. 2024 (Whole-brain annotations)</string>
+    <string name="about_license_title">Data License</string>
+    <string name="about_debug_title">Live Neural Activity Monitor</string>
+    <string name="about_debug_toggle">Show Live Brain Activation</string>
+    <string name="about_debug_mn9">MN9 Proboscis Motor:</string>
+    <string name="about_debug_dnp01_l">DNp01 Giant Fiber (L):</string>
+    <string name="about_debug_dnp01_r">DNp01 Giant Fiber (R):</string>
+    <string name="about_debug_pam">Mean PAM Dopamine:</string>
+    <string name="about_all_neurons_title">Neuron Catalog (127 Identified Cells)</string>
+    <string name="about_search_hint">Filter by cell type, role, or side...</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Settings</string>
+    <string name="settings_language">Language / Lingua</string>
+    <string name="settings_lang_en">English</string>
+    <string name="settings_lang_it">Italiano</string>
+    <string name="btn_close">Close</string>
+
+    <!-- Fact Popups -->
+    <string name="fact_popup_title">Connectome Discovery</string>
+    <string name="btn_dismiss">Got it</string>
+
+    <string name="fact_motor_feed">MN9 is a motor neuron that extends the fly\'s proboscis to eat. In a published whole-brain model, sugar-sensing neurons at 100 Hz drove it to about 80 percent of its maximum firing.</string>
+    <string name="fact_motor_escape">DNp01 is the Giant Fiber, a pair of descending neurons at the heart of the fly\'s escape circuit. There is one on each side of the brain.</string>
+    <string name="fact_sensory_loom">In this dataset, LPLC2 and LC4 cells provide the most synapses onto the Giant Fibers among visual cells. They detect objects growing larger, like a hand coming in fast.</string>
+    <string name="fact_reward_pam">About 120 to 130 PAM neurons release dopamine onto the mushroom body, the fly\'s learning center, and signal reward.</string>
+    <string name="fact_sensory_reel">In this subgraph the strongest route to the PAM neurons comes from visual relay cells, not from the feeding pathway. Doomscrolling wins the dopamine race in this wiring.</string>
+    <string name="fact_sensory_sugar">These 20 sugar-sensing taste neurons are real cells from the FlyWire connectome, which maps 139,255 neurons and about 50 million synapses.</string>
+    <string name="fact_sensory_jon">Johnston\'s organ neurons sit in the antennae and sense movement. In a published whole-brain model, activating them predicted firing in a grooming circuit, so rubbing the fly in the bath makes it groom.</string>
+</resources>
